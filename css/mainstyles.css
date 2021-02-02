@@ -1,0 +1,66 @@
+body{
+  background: #f6f6f2;
+}
+
+#mainNav{
+  background: #83c5be;
+}
+
+.masthead-heading{
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.masthead .masthead-heading {
+  font-size: 3.8rem;
+}
+
+
+.mp-type{
+  font-size: 100px;
+  border-right: solid 3px rgba(0,255,0,.75);
+
+  white-space: nowrap;
+  overflow: hidden;
+  /* font-family: 'Source Code Pro', monospace; */
+  animation: animated-text 4s steps(29,end) 1s 1 normal both,
+             animated-cursor 600ms steps(29,end) infinite;
+
+
+}
+
+.mp-1{
+  color: #66d1d1;
+}
+
+.mp-2{
+  color: #8cc8c7;
+
+
+}
+
+.mp-3{
+  color: #b2bfbd;
+
+}
+
+.mp-4{
+  color: #d8b5b3;
+
+}
+
+.mp-5{
+  color: #feaca9;
+
+}
+
+/* Animation */
+
+@keyframes animated-text{
+  from{width: 0;}
+  to{width: 680px;}
+}
+
+@keyframes animated-cursor{
+  from{border-right-color: rgba(0,255,0,.75);}
+  to{border-right-color: transparent;}
+}
