@@ -1,5 +1,6 @@
 body{
   background: #f6f6f2;
+  /* background: black; */
 }
 
 #mainNav{
@@ -12,8 +13,22 @@ body{
 
 .masthead .masthead-heading {
   font-size: 3.8rem;
+
+}
+.masthead{
+    background: black;
 }
 
+.masthead-subheading{
+  border-right: solid 3px #b2bfbd;
+  color: #feaca9;
+  white-space: nowrap;
+  overflow: hidden;
+  /* font-family: 'Source Code Pro', monospace; */
+  animation: animated-text 4s steps(29,end) 5s 1 normal both,
+             animated-cursor 600ms steps(29,end) infinite;
+
+}
 
 .mp-type{
   font-size: 100px;
