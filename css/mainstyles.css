@@ -11,12 +11,20 @@ body{
   font-family: 'Titillium Web', sans-serif;
 }
 
+.divider-custom .divider-custom-icon .first-star{
+  color: #f6f6f2;
+}
+
+.divider-custom .first-line{
+  color: #f6f6f2;
+}
+
 .masthead .masthead-heading {
   font-size: 3.8rem;
 
 }
 .masthead{
-    background: black;
+    background: #2c3e50;
 }
 
 .masthead-subheading{
@@ -25,7 +33,7 @@ body{
   white-space: nowrap;
   overflow: hidden;
   /* font-family: 'Source Code Pro', monospace; */
-  animation: animated-text 4s steps(29,end) 5s 1 normal both,
+  animation: animated-text-short 4s steps(29,end) 5s 1 normal both,
              animated-cursor 600ms steps(29,end) infinite;
 
 }
@@ -68,11 +76,21 @@ body{
 
 }
 
+p{
+  text-align: left;
+  line-height: 1.6em;
+}
+
 /* Animation */
 
 @keyframes animated-text{
   from{width: 0;}
-  to{width: 680px;}
+  to{width: 640px;}
+}
+
+@keyframes animated-text-short{
+  from{width: 0;}
+  to{width: 250px;}
 }
 
 @keyframes animated-cursor{
