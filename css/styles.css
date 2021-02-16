@@ -59,7 +59,8 @@ nav {
 }
 
 .header-div {
-  padding-left: 10%;
+  padding-left: 4%;
+  padding-right: 4%;
   background-color: #929b7c;
   position: relative;
   top: 16%;
@@ -84,6 +85,8 @@ nav {
   position: relative;
   top: 4.55em;
 }
+
+
 
 
 /* About Me */
@@ -372,7 +375,7 @@ padding-bottom: 4%;
 
 #second-star {
   position: relative;
-  right: 50%;
+  right: 40%;
   top: 4em;
   /* margin-bottom: 200px; */
   opacity: 80%;
@@ -444,8 +447,8 @@ padding-bottom: 4%;
 
 #projectdiamond{
   position: relative;
-  left: 30%;
-  top: -7em;
+  left: 24%;
+  top: 3.5em;
   opacity: 70%;
   z-index: 0;
   animation-name: twirl;
